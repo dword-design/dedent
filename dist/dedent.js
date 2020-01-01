@@ -52,3 +52,4 @@ function dedent(strings) {
   }
   return result.replace(/^((.|\n)*)\n[ \t]*?$/, '$1');
 }
+module.exports = exports.default;
